@@ -29,7 +29,7 @@ public class Program {
             System.out.println("Reservation: " + reservation);
 
             System.out.println();
-            System.out.print("Enter data to update the reservation:");
+            System.out.println("Enter data to update the reservation:");
             System.out.print("Check-in date (dd/MM/yyyy): ");
             checkIn = sdf.parse(sc.next());
             System.out.print("Check-out date (dd/MM/yyyy): ");
